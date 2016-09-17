@@ -1,0 +1,23 @@
+{
+  "name": "rangi",
+  "version": "1.0.0",
+  "description": "A Dead Simple Terminal Color Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamikazechaser/rangi.git"
+  },
+  "keywords": [
+    "terminal",
+    "color"
+  ],
+  "author": "Mohammed Sohail <sohailsameja@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamikazechaser/rangi/issues"
+  },
+  "homepage": "https://github.com/kamikazechaser/rangi#readme"
+}
