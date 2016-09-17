@@ -1,6 +1,6 @@
 {
   "name": "rangi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Dead Simple Terminal Color Module",
   "main": "index.js",
   "scripts": {
