@@ -5,6 +5,8 @@
 
 A dead simple Node.js terminal styling module that doesn't depend on any other module and is light-weight.
 
+> "Rangi" is a Kiswahili word which translates to "color"
+
 ## Install
 
 ```bash
