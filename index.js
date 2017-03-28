@@ -8,23 +8,15 @@
 
 "use strict";
 
-var util = require('util');
-
-/* ANSI escape codes to standard output using node.js util module
- *
- * https://nodejs.org/api/util.html#util_customizing_util_inspect_colors
- * https://en.wikipedia.org/wiki/ANSI_escape_code#Example_of_use_in_shell_scripting
- */
+const util = require("util");
 
 function mix(color, spec) {
-  var aec = util.inspect.colors[color];
-  return "\u001b[" + aec[0] + "m" + spec + "\u001b[" + aec[1] + "m";
+  const style = util.inspect.colors[color];
+  return `\u001b[${style[0]}m${spec}\u001b[${style[1]}m`;
 }
 
-// Rangi function
-
 function rangi() {
-  var returnValue = {};
+  const returnValue = {};
   Object.keys(util.inspect.colors).forEach(function (color) {
     returnValue[color] = function (spec) {
       return mix(color, spec);

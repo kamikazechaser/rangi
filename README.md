@@ -7,6 +7,10 @@ A dead simple Node.js terminal styling module that doesn't depend on any other m
 
 > "Rangi" is a Kiswahili word which translates to "color"
 
+## Demo
+
+![rangi](http://i.imgur.com/WKUyo3a.png "Rangi")
+
 ## Install
 
 ```bash
@@ -15,9 +19,13 @@ npm i rangi -S
 ## Usage
 
 ```javascript
-var rangi = require('rangi');
+const rangi = require("rangi");
 
-console.log(rangi.cyan('Hello World!'));
+// color styling
+console.log(rangi.cyan("Hello World! This text is cyan in color!"));
+
+// text formatting
+console.log(rangi.bold("Hello World! This text is bold in style!"));
 ```
 
 ## Supported Colors
@@ -32,6 +40,12 @@ console.log(rangi.cyan('Hello World!'));
  - `Yellow`
  - `Red`
  
+ ## Supported Text Styles
+
+ - `Bold`
+ - `Italic`
+ - `Underline`
+ - `Inverse` - _Inverted black and white text only_
  
 ## Supported Shells
 
@@ -41,7 +55,3 @@ console.log(rangi.cyan('Hello World!'));
  
 
 ## Example 
-
-![alt text](http://i.cubeupload.com/GAyb4n.jpg "Example")
-
-
