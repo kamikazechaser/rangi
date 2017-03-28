@@ -52,6 +52,4 @@ console.log(rangi.bold("Hello World! This text is bold in style!"));
  - `Windows CMD`
  - `Terminal`
  - `X-Term`
- 
-
-## Example 
+  
