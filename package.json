@@ -1,11 +1,8 @@
 {
   "name": "rangi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Dead Simple Terminal Color Module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamikazechaser/rangi.git"
